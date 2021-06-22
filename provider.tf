@@ -1,5 +1,5 @@
 provider "google" {
-  project     = "mhr-project"
+  project     = "siva-project"
   credentials = file("terraform_serviceaccount.json")
   region      = var.region
 
